@@ -1,8 +1,11 @@
 # Projeto de crud
 
-Essa api é uma api não bloqueante ,maven é uma api reativa um exemplo de crud para o teste, 
-o modelo de arquitetura utilizado é a Clean Architecture.
+Essa é uma api reativa utilizando springboot-webflux.
 
+
+Arquitetura do projeto
+
+![Alt text](clean/download.jfif?raw=true "Clean Architecture")
 
 
 
@@ -13,17 +16,24 @@ o modelo de arquitetura utilizado é a Clean Architecture.
 * Web-flux
 * Mongo-Reactive
 * ModelMapper
+* Swagger
 
 ## Todo
 * Implementação dos testes  ( )
 * Tratamento mais específicos para exception ( )
 
 
+# Swagger
+Para compilar o projeto
+1. Esse serviço dispõe de um swagger-ui.html
+```
+http:\\localhost:8080\swagger-ui.html
+```
 
 
 # Como iniciar
 Para compilar o projeto
-1. On your local system, start from the directory for the repository for your new site. Example:
+1. Utilize o comando abaixo
 ```
 mvn clean package 
 ```
@@ -33,8 +43,4 @@ mvn clean package
 ```
 docker-compose up --build --force-recreate
 ```
-
-Arquitetura do projeto
-
-![Alt text](clean/download.jfif?raw=true "Clean Architecture")
 
