@@ -19,9 +19,10 @@ Arquitetura do projeto
 * Swagger
 
 ## Todo
-* Implementação dos testes  ( )
-* Tratamento mais específicos para exception ( )
-
+- [ ] Melhorar documentação
+- [ ] Implementação dos testes unitários
+- [x] Swagger
+- [x] Endpoints
 
 # Swagger
 Para compilar o projeto
