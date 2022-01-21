@@ -1,0 +1,6 @@
+21-01-2022 12:12:07.787 [main] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+21-01-2022 12:12:09.622 [main] INFO  o.s.b.w.e.netty.NettyWebServer.start - Netty started on port(s): 8081
+21-01-2022 12:12:09.639 [main] INFO  c.b.e.a.CustomerApplication.logStarted - Started CustomerApplication in 12.673 seconds (JVM running for 15.117)
+21-01-2022 12:12:09.664 [main] INFO  c.b.e.a.CustomerApplication.main - Iniciando app.
+21-01-2022 12:12:09.778 [cluster-ClusterId{value='61eacd4740e35d49545a2fc3', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:6, serverValue:173}] to localhost:27017
+21-01-2022 12:12:09.785 [cluster-ClusterId{value='61eacd4740e35d49545a2fc3', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 1]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5081800}

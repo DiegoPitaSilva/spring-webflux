@@ -1,0 +1,17 @@
+package com.br.equiplano.commom.web.config;
+
+
+import org.modelmapper.ModelMapper;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class MapperConfig {
+
+    @Bean
+    public ModelMapper config(){
+        var model = new ModelMapper();
+        return model;
+
+    }
+}
