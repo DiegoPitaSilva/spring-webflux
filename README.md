@@ -28,9 +28,14 @@ Arquitetura do projeto
 Para compilar o projeto
 1. Esse serviço dispõe de um swagger-ui.html
 ```
-http:\\localhost:8080\swagger-ui.html
+http://localhost:8080/swagger-ui.html
 ```
 
+
+# Configuração
+```
+o arquivo de configuração é application.properties e está localizado no modulo de application, provavelmente o host estará apontado para db_mongo no docker.
+```
 
 # Como iniciar
 Para compilar o projeto
